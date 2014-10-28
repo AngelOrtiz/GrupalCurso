@@ -1,0 +1,45 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+.navbar .logo{
+
+display: block;
+text-align: center;
+width: 100%;
+}
+.navbar-header{
+
+	width: 100%;
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+
+	background-color: #060606;
+	color: #FCF2F2;
+}
+ul.secondary {
+float: left;
+}
+
+.input-group{
+
+	width: 30%;
+	float: right;
+
+}
+.nav {
+	display: inline-flex;
+}
+
+.clearfix:after {
+float: right;
+
+}
+
+.jumbotron {
+
+	font-size: 12px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
