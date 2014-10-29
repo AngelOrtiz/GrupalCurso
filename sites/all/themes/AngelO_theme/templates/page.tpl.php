@@ -94,6 +94,9 @@
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
       <div class="navbar-collapse collapse">
         <nav role="navigation">
+           <?php if (!empty($secondary_nav)): ?>
+            <?php print render($secondary_nav); ?>
+          <?php endif; ?>
           <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
           <?php endif; ?>
@@ -102,9 +105,7 @@
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
       </a>
       <?php endif; ?>
-          <?php if (!empty($secondary_nav)): ?>
-            <?php print render($secondary_nav); ?>
-          <?php endif; ?>
+         
           <?php if (!empty($page['navigation'])): ?>
             <?php print render($page['navigation']); ?>
           <?php endif; ?>
@@ -122,6 +123,9 @@
     <?php endif; ?>
 
     <?php print render($page['header']); ?>
+  
+
+
   </header> <!-- /#page-header -->
 
   <div class="row">
@@ -153,6 +157,13 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+
+      <?php// if (!empty($front_principal)): ?>
+        <div id="front-principal">
+          <?php print render($page['front_principal']); ?>
+        </div>
+      <?php// endif; ?>
+
       <?php print render($page['content']); ?>
     </section>
 

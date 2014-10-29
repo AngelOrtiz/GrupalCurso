@@ -42,4 +42,174 @@ float: right;
 	font-size: 12px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	line-height: 8px;
+}
+.navbar {
+margin-bottom: 0px;
+
+}
+
+.navbar-default{
+
+	background-color: #fff;
+
+}
+
+.container .jumbotron {
+padding-right: 0px;
+padding-left: 0px;
+}
+
+.container {
+
+	width: 1100px;
+}
+.menu nav navbar-nav{
+
+	background: black;
+}
+
+.separacion {
+border: 2px solid #000;
+  height: 1px; 
+
+}
+
+.primerC{
+
+border: 1px solid #D6D5D5;
+	width: 300px;
+
+}
+
+.segundoC{
+border: 1px solid #7BEE82;
+height: 527px;
+width: 300px;
+
+
+}
+
+.tercerC{
+border: 1px solid #D6D5D5;
+
+}
+
+.region .region-navigation{
+
+	padding: 5px;
+overflow: hidden;
+}
+
+.secondary{
+	border: 1px solid #fff;
+float: right;
+}
+
+.navbar-header{
+
+	background: #1B71EA;
+}
+
+.well{
+
+padding: 0px;
+margin-bottom: 0px;
+
+}
+.region{
+
+	//background: blue;
+}
+
+/*Bloques principales*/
+
+.col-sm-9{
+	width:630px;
+}
+
+.col-sm-3{
+	width:360px;
+}
+.container {
+	width:990px;
+}
+h1,h2,h3{
+	margin:0;
+}
+h1 a,
+h2 a,
+h3 a{
+		font-family:Georgia,serif;
+		color:#000;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover{
+	text-decoration: none;
+	color:#000;
+}
+
+#front-principal{
+	overflow:hidden;
+	padding-bottom:10px;
+	border-bottom:4px solid #000;
+}
+body.front h1.page-header,
+ul.tabs--primary{
+display:none;
+}
+
+body.front .main-container .row{
+	margin-top:10px;
+}
+#block-views-principal-izq-block-1{
+	// border:1px solid #ccc;
+	border-left: 2px solid #ccc;
+	margin-left: 2px;
+	width:360px;
+	float:left;
+}
+#block-views-principal-izq-block{
+	
+	float:left;
+	width:228px;
+	margin-right:10px;
+}
+#block-views-principal-izq-block .views-row-last{
+	border-top:1px solid #ccc;
+}
+
+#block-views-principal-izq-block .views-row-last .views-field-title h2,
+#block-views-principal-izq-block-1  .views-field-title h2{
+	font-size:16px;
+}
+
+#block-views-principal-izq-block .views-field-name,
+#block-views-principal-izq-block-1 .views-field-name {
+	font-size:9px;
+	color:#999;
+	font-family: Verdana,sans-serif;
+}
+
+/*Los mas leidos*/
+
+#block-views-los-mas-leidos-block .views-row{
+	border:1px solid;
+	overflow:hidden;
+}
+
+#block-views-los-mas-leidos-block .views-row .views-field-field-image{
+	float:left;
+
+}
+
+/*Segundo bloque*/
+
+#block-views-secundaria-izq-block{
+
+	margin-top: 10px;
+	float: left;
+	border-bottom: 2px solid #000;
+
 }
