@@ -155,6 +155,7 @@ h3 a:hover{
 	overflow:hidden;
 	padding-bottom:10px;
 	border-bottom:4px solid #000;
+
 }
 body.front h1.page-header,
 ul.tabs--primary{
@@ -275,6 +276,7 @@ color:#0033FF;
  }
 
 
+
  /*Bloque opinions*/
 
  #block-views-opinions-block{
@@ -332,11 +334,14 @@ color:#0033FF;
 text-decoration:none;
 }
 
+
+/*bloque tercer*/
+
 #block-views-tercer-nivel-block{
 
 	margin-top: 10px;
 	float: left;
-	border-bottom: 2px solid #000;
+	
 	padding-right: 10px;
 	width: 300px;
 }
@@ -349,17 +354,240 @@ border-bottom: 1px solid;
 #block-views-tercer-nivel-block .views-row{
 overflow: hidden;
 padding-bottom: 10px;
-border-bottom: 1px solid;
+border-bottom: 1px solid #999;
+
 }
 
 
 #block-views-tercer-nivel-block .views-field-field-image{
-background: red;
+
 float: left;
 }
 
-#block-views-tercer-nivel-block .views-row-2{
+#block-views-tercer-nivel-block .views-field-title{
+padding-bottom: 5px;
+
+}
+#block-views-tercer-nivel-block .views-field-title a{
+
+	font-family: Georgia;
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+}
+
+#block-views-tercer-nivel-block .views-field-title a:hover{
+
+text-decoration: none;
+color: #0033FF;
+}
+
+#block-views-tercer-nivel-block .views-field-name a{
+
+	font-family: Arial,sans-serif;
+	font-size: 9px;
+	color: #000;
+}
+#block-views-tercer-nivel-block .views-field-name span{
+
+	font-family: Arial,sans-serif;
+	font-size: 9px;
+	color: #000;
+}
+
+
+#block-views-tercer-nivel-block .views-field-name a:hover{
+	text-decoration: none;
+color: #0033FF;
+}
+
+#block-views-tercer-nivel-block .views-field-body p{
+
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	
+}
+#block-views-tercer-nivel-block .views-row-5{
+padding-bottom: 10px;
+
+border-bottom: none;
+}
+
+/*bloque tercer nivel derecha*/
+
+#block-views-tercer-nivel-block-1{
+
+	margin-top: 10px;
+	float: right;
+	
+	padding-right: 10px;
+	width: 300px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	width: 285px;
+	padding-top: 15px;
+	margin-left: 2px;
+}
+ 	
+ 	
+
+	
+	
+
+#block-views-tercer-nivel-block-1 .views-row-1{
 padding-bottom: 10px;
 border-bottom: 1px solid;
+}
+
+#block-views-tercer-nivel-block-1 .views-row{
+overflow: hidden;
+padding-bottom: 10px;
+border-bottom: 1px solid #999;
+
+}
+
+
+#block-views-tercer-nivel-block-1 .views-field-field-image{
+
+float: left;
+}
+
+#block-views-tercer-nivel-block-1 .views-field-title{
+padding-bottom: 5px;
+
+}
+#block-views-tercer-nivel-block-1 .views-field-title a{
+
+	font-family: Georgia;
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+}
+
+#block-views-tercer-nivel-block-1 .views-field-title a:hover{
+
+text-decoration: none;
+color: #0033FF;
+}
+
+#block-views-tercer-nivel-block-1 .views-field-name a{
+
+	font-family: Arial,sans-serif;
+	font-size: 9px;
+	color: #000;
+}
+#block-views-tercer-nivel-block-1 .views-field-name span{
+
+	font-family: Arial,sans-serif;
+	font-size: 9px;
+	color: #000;
+}
+
+
+#block-views-tercer-nivel-block-1 .views-field-name a:hover{
+	text-decoration: none;
+color: #0033FF;
+}
+
+#block-views-tercer-nivel-block-1 .views-field-body p{
+
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	
+}
+#block-views-tercer-nivel-block-1 .views-row-3{
+	padding-bottom: 10px;
+}
+
+
+#block-views-tercer-nivel-block-1 .views-row-4{
+padding-bottom: 10px;
+
+border-bottom: none;
+background: #e1e1e1;
+margin-top: 10px;
+
+
+}
+/*.region .region-content {
+
+	background: red;
+	height: 100%;
+	float: left;
+}*/
+
+/*  post tv*/
+
+#block-views-secion-central-block{
+margin-top: 10px;
+border-top: 2px solid #000;
+border-bottom: 2px solid #000;
+width: 600px;
+
+float: left;
+	padding-top: 15px;
+}
+
+/*Quick tabs prueba*/
+
+#block-quicktabs-prueba{
+
+	float: left;
+	width: 615px;
+	margin-top: 10px;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	padding-bottom: 10px;
+
+}
+
+#qt-prueba-ui-tabs2{
+
+padding: 0px;
+
+}
+
+#qt-prueba-ui-tabs1{
+
+	padding: 0px;
+	
+}
+
+#block-views-secion-central-block{
+
+
+border:none;
+
+}
+#quicktabs-prueba{
+
+	float: right;
+	border:none;
+}
+#quicktabs-prueba li{
+	background: #000;
+	border:none;
+
+}
+#quicktabs-prueba li:hover{
+	text-decoration: none;
+color: #C30DD0;
+}
+
+
+#quicktabs-prueba .ui-corner-all{
+
+
+background: #fff;
+
+border:none;
+}
+#quicktabs-prueba .ui-corner-all a{
+
+	background: #fff;
+	font-family:  FranklinITCProBold,Arial,sans-serif;
+	font-size: 14px;
+	color: #92278f;
+	font-weight: bold;
 
 }
