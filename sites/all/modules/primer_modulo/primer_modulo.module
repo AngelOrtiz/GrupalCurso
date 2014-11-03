@@ -1,0 +1,34 @@
+<?php
+
+/*El primer hook, utilizamos el hook_help*/
+function primer_modulo_help($path, $arg){
+	switch ($path){
+		case "admin/help#primer_modulo":
+			return "<h1>Esta es la página de ayuda de mi primer modulo</h1>";
+		break;
+	}
+}
+
+/**
+ * @file
+ * Archivo para empezar a programar con Drupal
+ */
+
+/**
+ * Implementa hook_menu().
+ */
+function primer_modulo_menu() {
+  $items['saludar/hola-mundo'] = array(
+    'title' => 'Saludar',
+    'page callback' => 'saludar_hola_mundo',
+    'access callback' => TRUE,
+  );
+  return $items;
+}
+
+/**
+ * Callback que implementa la página: saludar/hola-mundo.
+ */
+function primer_modulo_mundo() {
+  return "Hola Mundo";
+}
