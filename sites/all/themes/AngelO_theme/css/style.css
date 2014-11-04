@@ -20,7 +20,6 @@ width: 100%;
 	color: #FCF2F2;
 }
 */
-
 .navbar-default .navbar-nav>.active>a{
 
 background: #000000;
@@ -50,7 +49,6 @@ padding: 5px;
 
 }
 .secondary .first.leaf{
-
 	
 	border-right: 1px solid #e1e1e1;
 }
@@ -96,18 +94,87 @@ padding-left: 0px;
 .container {
 
 	width: 1100px;
+	padding-right: 0px;
+	padding-left: 0px;
+	border: none;
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+	background: #ffffff;
 }
-.menu nav navbar-nav{
 
-	background: black;
+.navbar-collapse{
+	padding: 0px;
+	margin:0px;
+
+/*barra de login y menu superior*/
+}
+#block-menu-menu-sup{
+
+	float: right;
+
 }
 
+#block-menu-menu-sup .menu {
+padding-top: 0px;
+display: flex;
+height: 30px;
+}
+
+
+#block-menu-menu-sup .menu a{
+font-family: Arial;
+font-weight: normal;
+font-size: 11px;
+color: #000000;
+padding: 5px;
+}
+
+#block-menu-menu-sup .menu a:hover{
+background: #ffffff;
+color:#0033FF;
+
+
+}
+
+ #block-menu-menu-sup li.first.leaf.active{
+border-right:1px  solid #e1e1e1;
+}
+#block-menu-menu-sup li.leaf.active{
+border-right:1px  solid #e1e1e1;
+}
+#block-menu-menu-sup li.last.leaf.active{
+border-right: none;
+}
+
+/*linea de separacion entre menus*/
 .separacion {
 border: 2px solid #000;
   height: 1px; 
 
 }
+/*segundo  menu In the search*/
 
+#block-menu-menu-principal{
+//background: #ffffff;
+border-right: 1px solid #e1e1e1;
+border-left: 1px solid #e1e1e1;
+border-bottom: none;
+
+
+
+}
+#block-menu-menu-principal a{
+font-family: Georgia;
+font-size: 13px;
+color: #000;
+
+}
+
+#block-menu-menu-principal  .first a{
+	
+color: #b03436;
+}
+/*primeros bloques deshabilitados*/
 .primerC{
 
 border: 1px solid #D6D5D5;
