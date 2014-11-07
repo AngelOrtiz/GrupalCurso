@@ -1184,6 +1184,9 @@ width: 300px;
 
 	height: 10px;
 }
+
+
+
 /*seccion tags 3 (local y sports)*/
 #block-views-secciones-tags-3-block{
 	float: left;
@@ -1208,6 +1211,7 @@ width: 300px;
 padding-bottom: 10px;
 border-bottom: 1px solid;
 width: 300px;
+background: red;
 }
 
 #block-views-secciones-tags-3-block .views-row{
@@ -1287,11 +1291,15 @@ color: #ffffff;
 
 	overflow: hidden;
 }
-#block-views-secciones-tags-3-block .views-row-1{
+#block-views-secciones-tags-3-block .view-display-id-attachment_2.views-row-1{
+	width: 300px;
+	float: left;
+}/*
+#block-views-secciones-tags-3-block .view-display-id-attachment_2.views-row-2{
 	width: 300px;
 	float: left;
 }
-
+*/
 
 
 
@@ -1302,8 +1310,28 @@ float: right;
 #block-views-secciones-tags-3-block .view-display-id-attachment_2{
 
 	width: 300px;
-float: right;
+//float: right;
 	}
+	#block-views-secciones-tags-3-block .view-display-id-attachment_3{
+background: red;
+	width: 300px;
+float: right;
+overflow: hidden;
+	}
+
+
+#block-views-secciones-tags-3-blockview .view-secciones-tags-3 .view-id-secciones_tags_3 .view-display-id-attachment_2{
+background: blue;
+}
+#block-views-secciones-tags-3-block .view-display-id-attachment_2 .views-row .views-row-2 .views-row-even {
+background: red;
+	float: left;
+}
+
+#block-views-secciones-tags-3-block.view-display-id-attachment_2.views-row .views-row-3.views-row-odd.views-row-last{
+	float: left;
+	background: black;
+}
 
  #block-views-secciones-tags-3-block .view-display-id-attachment_2 a{
 	font-family: Arial;
@@ -1331,7 +1359,7 @@ width: 300px;
 
 }
 
-#block-views-secciones-tags-3-block .views-row .views-row-2 .views-row-even{
+#block-views-secciones-tags-3-block .views-row .views-row-3 .views-row-even{
 
 	height: 10px;
 }
@@ -1350,4 +1378,39 @@ width: 300px;
 	font-size: 12px;
 	font-weight: bold;
 
+}
+
+/*Articulos relacionados*/
+
+#block-views-articulos-relacionados-block {
+
+border-top: 2px solid #000000;
+margin-top: 20px;
+padding-top: 20px;
+
+
+}
+
+
+#block-views-articulos-relacionados-block .views-row{
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+
+/*Encuesta mas reciente*/
+
+#block-poll-recent{
+
+	padding-top: 10px;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #0000000;
+	padding-bottom: 10px;
+}
+
+#block-poll-recent h2{
+
+font-family: Georgia;
+text-align: center;
+padding-bottom: 10px;
 }
